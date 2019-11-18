@@ -1,0 +1,383 @@
+/*@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Smythe&display=swap');
+
+
+
+html,body{
+	/*background: rgba(0,0,0,1);*/
+	/*color: rgba(169,169,169,.8);*/
+	color: rgba(0,0,0,.8);
+	font-family: 'Didact Gothic', sans-serif;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	max-width: 98rem;
+	padding: 0 1.5rem;
+	margin: 0 auto;
+}
+hr{
+	border-top: 1px solid rgba(169,169,169,.3);
+}
+/*.jumbotron{
+	padding: .8rem;
+}*/
+
+section{
+	padding: 1rem 0;
+}
+
+/*navbar start*/
+.nav-item .nav-link{
+	font-size: 1.2rem;
+	font-family: 'Didact Gothic', sans-serif;
+	color: rgba(169,169,169,1) !important;
+	letter-spacing: .2rem;
+}
+/*navbar end*/
+
+/*profile name start*/
+.profile-name h3{
+	font-size: 4.5rem;
+	letter-spacing: .2rem;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Smythe', cursive;
+	background: linear-gradient(to bottom right, rgba(128,128,0,.8), rgba(16,29,44,.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(128,128,0,.8);
+	text-shadow: 2px 2px 3px rgba(16,29,44,.8);
+}
+.profile-name h5{
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-top: 4rem;
+	color: rgba(16,29,44,.8);
+	text-shadow: 1px 1px 1px rgba(16,29,44,.6);
+
+}
+/*profile name end*/
+
+/*profile headind start*/
+.profile-heading h5{
+	font-size: 2.7rem;
+	background: linear-gradient(to bottom right, rgba(165,85,0,.8), rgba(128,128,0,.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(165,85,0,.8);
+	text-shadow: 2px 2px 2.5px rgba(128,128,0,.8);
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Smythe', cursive;
+	letter-spacing: .2rem;
+}
+.profile-heading p{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: .1rem;
+}
+/*profile heading end*/
+.arrow-down i{
+	font-size: 2.3rem;
+	display: flex;
+	justify-content: center;
+	color: rgba(16,29,44,.8);
+}
+/*skills  start*/
+.skills-heading h5{
+	font-size: 2.7rem;
+	background: linear-gradient(to bottom right, rgba(165,85,0,.8), rgba(128,128,0,.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(165,85,0,.8);
+	text-shadow: 2px 2px 2.5px rgba(128,128,0,.8);
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Smythe', cursive;
+	letter-spacing: .2rem;
+
+}
+/*.icon-container{*/
+	/*width: 5rem;*/
+	/*height: 5rem;*/
+	/*border: 3px solid rgba(16,29,44,.8); */
+	/*margin-bottom: 2rem;*/
+	/*display: flex;*/
+	/*border-radius: 25%;*/
+	/*margin: 0 auto;*/
+	/*transform: rotate(45deg);*/
+/*}*/
+.icon-container i{
+	color: rgba(128,0,32,.8);
+	font-size: 2rem;
+	/*margin: 0 auto;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 1.5px 1.5px 1px rgba(165,85,0,.4);
+	/*transform: rotate(-45deg);*/
+}
+.skills-title h6{
+	text-align: center;
+	margin-top: 4px;
+	font-size: 1.2rem;
+	font-family: 'Didact Gothic', sans-serif;
+	color: rgba(16,29,44,.8);
+	font-weight: bold;
+	letter-spacing: .1rem;
+}
+/*skills end*/
+
+/*works done start*/
+.works-heading h5{
+	font-size: 2.7rem;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Smythe', cursive;
+	background: linear-gradient(to bottom right, rgba(165,85,0,.8), rgba(128,128,0,.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(165,85,0,.8);
+	text-shadow: 2px 2px 2.5px  rgba(128,128,0,.8);
+	letter-spacing: .2rem;
+}
+.works-title h3{
+	font-size: 1.95rem;
+	font-weight: bold;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Smythe', cursive;
+	color: rgba(16,29,44,.8);
+	letter-spacing: .2rem;
+}
+.works-subtitle h4{
+	font-size: 1.5rem;
+	font-family: 'Didact Gothic', sans-serif;
+	color: rgba(165,85,0,.8);
+	letter-spacing: .1rem;
+}
+.works-info p{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: .1rem;
+}
+.link-container a{
+	font-size: 1rem;
+	font-family: 'Didact Gothic', sans-serif;
+	color: rgba(128,0,32,.8);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	transition: color 650ms;
+	cursor: pointer;
+	margin-top: 1rem;
+}
+/*.link-container a: hover{
+	background-color: rgba(128,0,32,.8);
+}*/
+/*works done end*/
+
+/*events start*/
+.events-heading h5{
+	font-size: 2.7rem;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Smythe', cursive;
+	letter-spacing: .2rem;
+	background: linear-gradient(to bottom right, rgba(165,85,0,.8), rgba(128,128,0,.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(165,85,0,.8);
+	text-shadow: 2px 2px 2.5px rgba(128,128,0,.8);
+}
+.events-title h5{
+	font-size: 1.95rem;
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Smythe', cursive;
+	color: rgba(16,29,44,.8);
+	font-weight: bold;
+	letter-spacing: .1rem; 
+}
+.events-info p{
+	font-size: 1.2rem;
+	font-family: 'Didact Gothic', sans-serif;
+	letter-spacing: .1rem;
+}
+/*events end*/
+
+/*globaltours start*/
+.global-tours h5{
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Smythe', cursive;
+	font-size: 2.7rem;
+	letter-spacing: .2rem;
+	background: linear-gradient(to bottom right, rgba(165,85,0,.8), rgba(128,128,0,.8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(165,85,0,.8);
+	text-shadow: 2px 2px 2.5px rgba(128,128,0,.8);
+}
+.img-container img{
+	border-radius: 5px;
+}
+.tour-one p{
+	/*font-family: 'Didact Gothic', sans-serif;*/
+	font-family: 'Great visit', cursive;
+	font-family: 'Smythe', cursive;
+	font-size: 1.4rem;
+	letter-spacing: .1rem;
+	color: rgba(16,29,44,.8);
+	font-weight: bold;
+	/*position: relative;*/
+	/*display: block;*/
+	margin: 150px 0 0 0;
+}
+.tour-two p{
+	/*font-family: 'Didact Gothic', sans-serif;*/
+	font-family: 'Great visit', cursive;
+	font-family: 'Smythe', cursive;
+	font-size: 1.4rem;
+	letter-spacing: .1rem;
+	color: rgba(16,29,44,.8);
+	font-weight: bold;
+	margin: 150px 0 0 0;
+}
+.tour-three p{
+	/*font-family: 'Didact Gothic', sans-serif;*/
+	font-family: 'Great visit', cursive;
+	font-family: 'Smythe', cursive;
+	font-size: 1.4rem;
+	letter-spacing: .1rem;
+	color: rgba(16,29,44,.8);
+	font-weight: bold;
+	margin: 150px 0 0 0;
+}
+.tour-link a{
+	font-size: 1rem;
+	font-family: 'Didact Gothic', sans-serif;
+	color: rgba(128,0,32,.8);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	cursor: pointer;
+	margin-top: 1.7rem;
+	display: flex;
+	justify-content: center;
+}
+/*.tour-two::after{
+	content: "Emmanuel Macron visit, 2019";
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 3rem;
+	letter-spacing: .1rem;
+	position: relative;
+	display: block;
+	top: -400px;
+	left: -390px ;
+	color: rgba(16,29,44,.9);
+}*/
+/*.tour-three::after{
+	content: "Alexander De Croo visit, 2018";
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 3rem;
+	letter-spacing: .1rem;
+	position: relative;
+	display: block;
+	top: -370px;
+	left: 455px;
+	color: rgba(16,29,44,.9);
+}*/
+/*globaltours end*/
+
+
+/*form start*/
+/*form{
+	width: 50%;
+	margin: 0 auto;
+}
+.form-group label{
+	padding-bottom: 1.5rem;
+	letter-spacing: 2px;
+	font-size: 1.2rem;
+	font-family: 'Raleway', sans-serif;
+}
+.form-group input,
+
+.form-group textarea{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid rgba(169,169,169,1);
+	color: rgba(255,255,255,.8);
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	font-size: 1rem;
+}
+form .btn{
+	border: 2px solid rgba(255,255,255,.8);
+	margin-top: 25px;
+	letter-spacing: 5px;
+	font-size: 1.1rem;
+	border-radius: 2px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	color: rgba(255,255,255,.8);
+	transition: 650ms;
+	padding: 1rem 1rem;
+}
+form .btn:hover{
+	background: rgba(255,245,103,.8);
+	border: 2px solid rgba(0,0,0,1);
+}*/
+/*form end*/
+
+
+.hr hr{
+	max-width: 85%;
+}
+
+/*footer start*/
+.socials p{
+	font-size: 1.1rem;
+	letter-spacing: .1rem;
+	font-family: 'Didact Gothic', sans-serif;
+	color: rgba(16,29,44,.8);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.sm-links a{
+	color: rgba(128,0,32,.8);
+	font-size: 1.1rem;
+	font-weight: bold;
+	letter-spacing: .1rem;
+}
+.email-icon{
+	font-size: 1.2rem;
+	color: rgba(128,0,32,.8);
+}
+.email-address span{
+	font-size: 1.2rem;
+	font-family: 'Didact Gothic', sans-serif;
+	letter-spacing: .1rem;
+	color: rgba(16,29,44,.8);
+}
+.copyright p{
+	font-size: 1.2rem;
+	font-family: 'Didact Gothic', sans-serif;
+	letter-spacing: .1rem;
+	color: rgba(16,29,44,.8);
+	font-weight: bold;
+}
+
+/*i{
+	font-size: 1.3rem;
+	color: rgba(101,67,33,.8);
+	margin-right: 20px;
+	cursor: pointer;
+	transition: color 1s;
+}*/
+/*.facebook i:hover{
+	color: #3b5998;
+}
+.twitter i:hover{
+	color: #00acee;
+}
+.linkedin i:hover{
+	color: #0077B5;
+}
+.copyright p{
+	letter-spacing: 2px;
+}
+.email-address i{
+	cursor:none;
+}*/
+/*footer end
