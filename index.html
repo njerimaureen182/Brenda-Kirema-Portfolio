@@ -584,7 +584,7 @@ rel="stylesheet">
 
 				<div class="img-container pr-5">
 					<!-- <div class=tour-two> -->
-						<img src="img/emmanuel_macron.JPG" class="img-fluid">
+						<img src="img/emmanuel_macron.jpg" class="img-fluid">
 						
 					<!-- </div> -->
 				</div>
@@ -604,7 +604,7 @@ rel="stylesheet">
 
 				<div class="img-container pl-5">
 					<!-- <div class=tour-three> -->
-						<img src="img/alexander_de_croo.jpg" class="img-fluid">
+						<img src="img/alexander_de_croo.JPG" class="img-fluid">
 
 					<!-- </div> -->
 				</div>
@@ -752,5 +752,32 @@ rel="stylesheet">
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 <script type="text/javascript" src="script.js"></script>
 
+
+<!-- splashscreen -->
+  <!-- css styling -->
+<style type="text/css">
+	/*.no-js #loader { display: none;  }*/
+	/*.js #loader { display: block; position: absolute; left: 100px; top: 0; }*/
+	#splash_screen {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		background: url(img/jq_loader.svg) center no-repeat #fff;
+		background-color: #fff;
+}
+</style>
+
+<div id="splash_screen"></div>
+
+<script type="text/javascript">
+$(window).on('load', function() {
+  // Animate loader off screen
+  // $("#splash_screen").fadeOut("slow");;
+  $("#splash_screen").addClass("animated slideOutUp");
+	});
+</script>
 </body>
 </html>
